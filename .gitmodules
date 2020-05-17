@@ -1,0 +1,15 @@
+[submodule "StanfordQuadruped"]
+	path = submodules/StanfordQuadruped
+	url = https://github.com/stanfordroboticsclub/StanfordQuadruped.git
+[submodule "LIDARLite_RaspberryPi_Library"]
+	path = submodules/LIDARLite_RaspberryPi_Library
+	url = https://github.com/garmin/LIDARLite_RaspberryPi_Library.git
+[submodule "bazel"]
+	path = submodules/bazel
+	url = https://github.com/bazelbuild/bazel.git
+[submodule "protobuf"]
+	path = submodules/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "examples"]
+	path = submodules/examples
+	url = https://github.com/bazelbuild/examples
