@@ -2,8 +2,8 @@
 Let's see how far along I go with this project
 
 ## Overview 
-Building on the Stanford Pupper project with a Jetson Nano.
+Building on the Stanford Pupper project with a Jetson Nano instead of a Raspberry Pi
 
 ## Lidar
-Using Garmin's lidarlite_v3 module, build the shared object locally with:
+If using Garmin's lidarlite_v3 module, build the shared object locally with:
 bazel build //src:libdodger.so
