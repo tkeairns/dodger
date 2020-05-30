@@ -8,7 +8,7 @@
 
 
 #define MS_TO_NS(ms)   ((ms) * (10 ^ 6))      
-#define POLL_FREQUENCY MS_TO_NS(1000U)
+#define POLL_FREQUENCY_NS MS_TO_NS(1U)
 #define FILTER_EXPONENTIAL_FACTOR 0.5
 #define FILTER_FREQUENCY_1_100 0.0628F
 
@@ -67,7 +67,7 @@ void lidar_poll_1kHz()
 
         static const timespec poll_freq = {
             tv_sec : 0,
-            tv_nsec : POLL_FREQUENCY,
+            tv_nsec : POLL_FREQUENCY_NS,
         };
         nanosleep(&poll_freq, nullptr);
     }

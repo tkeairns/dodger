@@ -13,3 +13,9 @@
 [submodule "examples"]
 	path = submodules/examples
 	url = https://github.com/bazelbuild/examples
+[submodule "submodules/opencv"]
+	path = submodules/opencv
+	url = https://github.com/opencv/opencv.git
+[submodule "submodules/models"]
+	path = submodules/models
+	url = https://github.com/tensorflow/models
