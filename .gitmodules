@@ -1,5 +1,5 @@
 [submodule "StanfordQuadruped"]
-	path = submodules/StanfordQuadruped
+	path = StanfordQuadruped
 	url = https://github.com/stanfordroboticsclub/StanfordQuadruped.git
 [submodule "LIDARLite_RaspberryPi_Library"]
 	path = submodules/LIDARLite_RaspberryPi_Library
@@ -22,3 +22,4 @@
 [submodule "submodules/Pupper-Raspi-PDB"]
 	path = submodules/Pupper-Raspi-PDB
 	url = https://github.com/stanfordroboticsclub/Pupper-Raspi-PDB
+

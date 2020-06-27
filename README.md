@@ -7,7 +7,7 @@ Building on the Stanford Pupper project with a Jetson Nano instead of a Raspberr
 ## Lidar
 If using Garmin's lidarlite_v3 module, build the shared object locally with:
 
-```bazel build //src:libdodger.so```
+```bazel build //dodger:libdodger.so```
 
 ## Docs 
 Build python docs with:
