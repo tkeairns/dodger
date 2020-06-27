@@ -19,3 +19,6 @@
 [submodule "submodules/models"]
 	path = submodules/models
 	url = https://github.com/tensorflow/models
+[submodule "submodules/Pupper-Raspi-PDB"]
+	path = submodules/Pupper-Raspi-PDB
+	url = https://github.com/stanfordroboticsclub/Pupper-Raspi-PDB
